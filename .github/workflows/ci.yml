@@ -32,5 +32,6 @@ jobs:
         cat README.md
         echo hello
 
-        ack Linux
+    - name: Try ack
+      run: ack Linux
 
