@@ -30,5 +30,7 @@ jobs:
         ls -al
         df -h
         cat README.md
+        echo hello
+
         ack Linux
 
