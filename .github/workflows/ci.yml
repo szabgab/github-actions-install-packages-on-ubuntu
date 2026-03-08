@@ -18,10 +18,11 @@ jobs:
 
     - name: Install package
       run: |
-        sudo apt-get -y install tree
-        which tree
+        sudo apt-get -y install ack
 
-    - name: Try tree
+    - name: Try ack
       run: |
-        tree ..
+        which ack || echo ack is missing
+        which ack
+        ack package
 
