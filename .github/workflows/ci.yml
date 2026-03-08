@@ -25,6 +25,7 @@ jobs:
         which ack || echo ack is missing
         which ack
         ack --help
-        ack Linux
         tree
+        cat README.md
+        ack Linux
 
