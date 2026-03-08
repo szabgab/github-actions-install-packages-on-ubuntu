@@ -22,6 +22,7 @@ jobs:
 
     - name: Try ack
       run: |
+        set -x
         which ack || echo ack is missing
         which ack
         ack --help
