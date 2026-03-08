@@ -17,3 +17,7 @@ jobs:
         sudo apt-get -y install tree
         which tree
 
+    - name: Try tree
+      run: |
+        tree ..
+
