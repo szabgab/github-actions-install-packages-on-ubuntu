@@ -2,7 +2,7 @@ name: Install Linux packages
 
 on:
   push:
-    branches: '*'
+  workflow_dispatch:
 
 jobs:
   build:
