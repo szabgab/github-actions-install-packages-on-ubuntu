@@ -27,6 +27,7 @@ jobs:
         ack --help
         tree
         ls -al
+        df -h
         cat README.md
         /usr/bin/ack full
 
