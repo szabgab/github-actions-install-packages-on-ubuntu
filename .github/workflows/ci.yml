@@ -14,8 +14,7 @@ jobs:
 
     - name: Before
       run: |
-        result=$(which ack)
-        echo $result
+        which ack || echo ack is missing
 
     - name: Install package
       run: |
