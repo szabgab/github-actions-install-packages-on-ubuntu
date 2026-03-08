@@ -22,13 +22,14 @@ jobs:
 
     - name: Try ack
       run: |
-        which ack || echo ack is missing
-        which ack
-        ack --help
-        tree
-        ls -al
-        df -h
-        jq
+        #which ack || echo ack is missing
+        #which ack
+        #ack --help
+        #tree
+        #ls -al
+        #df -h
+        #jq
+        ping -c 2 8.8.8.8
         #cat README.md
         #/usr/bin/ack full
 
