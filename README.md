@@ -1,1 +1,4 @@
-# github-actions-install-packages-on-ubuntu
+# GitHub Workflow installing Linux pacakeg with apt
+
+For the full list of examples and explanations visit https://git.code-maven.com/
+
