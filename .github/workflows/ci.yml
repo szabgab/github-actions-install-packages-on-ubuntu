@@ -17,6 +17,7 @@ jobs:
         which tree
         which curl
         which wget
+        which ack
 
     - name: Install package
       run: |
