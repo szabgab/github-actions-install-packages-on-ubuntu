@@ -32,6 +32,8 @@ jobs:
         cat README.md
         echo hello
 
+    - name: Try grep
+      run: grep Linux *
     - name: Try ack
       run: ack Linux
 
