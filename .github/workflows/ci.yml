@@ -27,5 +27,5 @@ jobs:
         ack --help
         tree
         cat README.md
-        ack Linux .
+        ack full
 
