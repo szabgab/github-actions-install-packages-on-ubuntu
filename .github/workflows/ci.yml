@@ -12,6 +12,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v6
 
+    - name: Before
+      run: |
+        which tree
+
     - name: Install package
       run: |
         sudo apt-get -y install tree
