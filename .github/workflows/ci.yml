@@ -24,6 +24,7 @@ jobs:
       run: |
         which ack || echo ack is missing
         which ack
+        ack --help
         #ack Linux
         tree
 
