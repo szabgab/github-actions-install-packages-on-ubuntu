@@ -28,6 +28,7 @@ jobs:
         tree
         ls -al
         df -h
-        cat README.md
-        /usr/bin/ack full
+        jq
+        #cat README.md
+        #/usr/bin/ack full
 
