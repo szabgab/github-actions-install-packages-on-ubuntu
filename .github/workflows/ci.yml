@@ -14,10 +14,8 @@ jobs:
 
     - name: Before
       run: |
-        which tree
-        which curl
-        which wget
-        which ack
+        result=$(which ack)
+        echo $result
 
     - name: Install package
       run: |
