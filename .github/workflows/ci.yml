@@ -15,26 +15,14 @@ jobs:
     - name: Before
       run: |
         which black || echo black is missing
-        black
 
-#    - name: Install package
-#      run: |
-#        sudo apt-get -y install ack
-#
-#    - name: Try ack
-#      run: |
-#        set -x
-#        which ack || echo ack is missing
-#        which ack
-#        ack --help
-#        tree
-#        ls -al
-#        df -h
-#        cat README.md
-#        echo hello
-#
-#    - name: Try grep
-#      run: grep Linux *
-#    - name: Try ack
-#      run: ack Linux
+    - name: Install package
+      run: |
+        sudo apt-get -y install black
+
+    - name: Try black
+      run: black .
+
+    - name: diff
+      run: git diff
 
