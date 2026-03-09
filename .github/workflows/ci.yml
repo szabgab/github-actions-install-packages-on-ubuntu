@@ -22,6 +22,7 @@ jobs:
 
     - name: Try black
       run: black .
+      # Use `black --check .` to verify the formatting and make the CI fail if it needs updating.needs updating.
 
     - name: diff
       run: git diff
