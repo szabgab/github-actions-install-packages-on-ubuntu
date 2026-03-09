@@ -15,6 +15,7 @@ jobs:
     - name: Before
       run: |
         which black || echo black is missing
+        black
 
 #    - name: Install package
 #      run: |
